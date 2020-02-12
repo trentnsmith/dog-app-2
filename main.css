@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+#numDogs {
+    max-width: 25px;
+}
+
+.container {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 40%;
+    height: 50%;
+}
+
+#getPics:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+
+.hidden {
+    display: none;
+}
