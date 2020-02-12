@@ -2,7 +2,7 @@
 
 
 function getDogImage(numInput) {
-    if (numInput <= 50) {
+    if (numInput <= 50 & numInput > 0) {
     fetch(`https://dog.ceo/api/breeds/image/random/${numInput}`)
     .then(response => response.json())
     .then(responseJson => displayResults(responseJson));
